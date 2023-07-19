@@ -8,7 +8,7 @@ PYTHON_VERSION=${1}
 CONDA_DIR="/opt/conda"
 CONDA_INSTALLER="Miniconda3-py39_23.5.2-0-Linux-x86_64.sh"
 CONDA_MD5="9829d95f639bd0053b2ed06d1204e60644617bf37dd5cc57523732e0e8d64516"
-CONDA_URL="https://repo.anaconda.com/miniconda/"
+CONDA_URL="https://repo.anaconda.com/miniconda"
 
 mkdir -p /etc/determined/conda.d
 mkdir -p "${CONDA_DIR}"
